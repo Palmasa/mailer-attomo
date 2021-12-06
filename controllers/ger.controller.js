@@ -31,7 +31,3 @@ module.exports.sendEmails = async (req, res, next) => {
     }
   }
 };
-
-module.exports.getInfo = (req, res, next ) => {
-  
-}

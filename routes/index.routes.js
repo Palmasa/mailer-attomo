@@ -6,7 +6,6 @@ const gerController = require('../controllers/ger.controller')
 
 // GER --------------------------------------------------------------------
 router.post('/ponerse-en-contacto', gerController.sendEmails)
-router.get('/data-GER', gerController.getInfo)
 
 // INDEX -------------------------------------------------------------------
 router.get('/', indexController.index)
